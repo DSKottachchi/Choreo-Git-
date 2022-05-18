@@ -12,6 +12,7 @@ service / on new http:Listener(9090) {
         // Send a response back to the caller.
         if name is "" {
             io:println("Test Config");
+            io:println("Test Config");
 
             return error("name should not be empty!");
         }
